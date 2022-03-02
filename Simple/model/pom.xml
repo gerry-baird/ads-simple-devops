@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>cpadmin.gb_simple_devops.simple</groupId>
-    <artifactId>simpleDM</artifactId>
+    <artifactId>model</artifactId>
     <version>LATEST-SNAPSHOT</version>
 
     <build>
@@ -26,21 +26,16 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>Simple-DM</name>
+                            <name>model</name>
                         </deployment>
                     </deployments>
-                <packageName>cpadmin.gb_simple_devops.simple.simpledm</packageName>
+                <packageName>cpadmin.gb_simple_devops.simple.model</packageName>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
 <dependencies>
-        <dependency>
-            <groupId>cpadmin.gb_simple_devops.simple</groupId>
-            <artifactId>model</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>com.ibm.decision</groupId>
             <artifactId>engine-compact-runtime</artifactId>

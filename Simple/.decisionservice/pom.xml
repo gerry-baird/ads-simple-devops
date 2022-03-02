@@ -17,6 +17,11 @@
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
+            <groupId>cpadmin.gb_simple_devops.simple</groupId>
+            <artifactId>model</artifactId>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>com.ibm.decision</groupId>
             <artifactId>engine-compact-runtime</artifactId>
             <version>${engine-compact-runtime.version}</version>
@@ -30,6 +35,7 @@
     </dependencies>
 
     
+
 
 <build>
         <resources>
@@ -58,6 +64,15 @@
                                 <artifactItem>
                                     <groupId>cpadmin.gb_simple_devops.simple</groupId>
                                     <artifactId>simpleDM</artifactId>
+                                    <version>LATEST-SNAPSHOT</version>
+                                    <type>jar</type>
+                                    <overWrite>false</overWrite>
+                                    <includes>**/*.class</includes>
+                                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>cpadmin.gb_simple_devops.simple</groupId>
+                                    <artifactId>model</artifactId>
                                     <version>LATEST-SNAPSHOT</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>

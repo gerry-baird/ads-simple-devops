@@ -60,6 +60,7 @@
     <modules>
         <module>.decisionservice</module>
         <module>Simple DM</module>
+        <module>model</module>
     </modules>
 
     <build>
