@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
-  <name>Output</name>
-  <uuid>9a5c90a5-779c-485d-9d49-c3423c79c668</uuid>
+  <name>Do Calc</name>
+  <uuid>731a1921-11b8-4802-bc5c-3c18d9d413bf</uuid>
   <locale>en_US</locale>
-  <definition><![CDATA[set decision to "Hello " + Name + " I changed the rules at 15:20 and your number is : " + 'calculation result' ;]]></definition>
+  <definition><![CDATA[set decision to Number + 1;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
