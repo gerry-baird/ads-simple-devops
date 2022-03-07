@@ -17,6 +17,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                sh 'mvn -s maven-settings.xml clean install'
             }
         }
         stage('Test') {
