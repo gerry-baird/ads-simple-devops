@@ -28,6 +28,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+                sh '/var/lib/ads-simple-pipeline-deploy.sh'
             }
         }
     }
