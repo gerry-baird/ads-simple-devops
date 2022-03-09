@@ -29,7 +29,9 @@ pipeline {
             steps {
                 echo 'Deploying....'
                 withCredentials([string(credentialsId: 'ZenApiKey-Dev', variable: 'ZenApiKey')]) {
-                    sh '/var/lib/jenkins/ads-simple-pipeline-deploy.sh'
+                    sh '''
+                        echo "zen key = ${ZenApiKey}"
+                    '''
                 }
 
             }
