@@ -1,8 +1,0 @@
-
-# Person
-Person#concept.label = Person
-Person.Person(java.lang.String,java.lang.String)#phrase.navigation = a new {Person} where {0, firstname} {1, lastname}
-Person.firstname#phrase.action = set the firstname of {this} to {firstname}
-Person.firstname#phrase.navigation = {firstname} of {this}
-Person.lastname#phrase.action = set the lastname of {this} to {lastname}
-Person.lastname#phrase.navigation = {lastname} of {this}
