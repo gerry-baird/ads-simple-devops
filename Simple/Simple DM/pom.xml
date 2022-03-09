@@ -37,11 +37,6 @@
 
 <dependencies>
         <dependency>
-            <groupId>cpadmin.gb_simple_devops.simple</groupId>
-            <artifactId>model</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>com.ibm.decision</groupId>
             <artifactId>engine-compact-runtime</artifactId>
         </dependency>
