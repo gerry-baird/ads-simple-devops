@@ -2,7 +2,7 @@
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
     <profiles>
         <profile>
-            <id>ads-build</id>
+            <id>ads-profile</id>
             <repositories>
                 <repository>
                     <id>ads-plugins</id>
@@ -35,6 +35,6 @@
     </servers>
 
     <activeProfiles>
-        <activeProfile>ads-build</activeProfile>
+        <activeProfile>ads-profile</activeProfile>
     </activeProfiles>
 </settings>
