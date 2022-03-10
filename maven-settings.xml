@@ -28,9 +28,9 @@
 
     <servers>
         <server>
-            <id>gerry-nexus</id>
-            <username>admin</username>
-            <password>RsEb2RnWMXj9_diJ</password>
+            <id>ads-plugins</id>
+            <username>${nexusUser}</username>
+            <password>${nexusPwd}</password>
         </server>
     </servers>
 
