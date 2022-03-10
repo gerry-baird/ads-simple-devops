@@ -1,0 +1,40 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <profiles>
+        <profile>
+            <id>ads-profile</id>
+            <repositories>
+                <repository>
+                    <id>ads-plugins</id>
+                    <name>ads-plugins</name>
+                    <url>https://nexus-secure-nexus.mycluster-lon02-m-753506-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/ads-plugins/</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>ads-plugins</id>
+                    <name>ads-plugins</name>
+                    <url>https://nexus-secure-nexus.mycluster-lon02-m-753506-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/ads-plugins/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+    </profiles>
+
+    <servers>
+        <server>
+            <id>ads-plugins</id>
+            <username>${nexusUser}</username>
+            <password>${nexusPwd}</password>
+        </server>
+    </servers>
+
+    <activeProfiles>
+        <activeProfile>ads-profile</activeProfile>
+    </activeProfiles>
+</settings>
