@@ -30,7 +30,7 @@
         <server>
             <id>gerry-nexus</id>
             <username>${nexusUser}</username>
-            <password>$nexusPwd}</password>
+            <password>${nexusPwd}</password>
         </server>
     </servers>
 
