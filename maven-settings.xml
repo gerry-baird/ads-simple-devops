@@ -26,6 +26,14 @@
         </profile>
     </profiles>
 
+    <servers>
+        <server>
+            <id>gerry-nexus</id>
+            <username>${nexusUser}</username>
+            <password>$nexusPwd}</password>
+        </server>
+    </servers>
+
     <activeProfiles>
         <activeProfile>ads-build</activeProfile>
     </activeProfiles>

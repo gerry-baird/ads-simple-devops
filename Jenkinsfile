@@ -17,7 +17,10 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'mvn -X -s maven-settings.xml clean install -f Simple/pom.xml'
+                withCredentials([usernamePassword(credentialsId: '051df11b-157b-44d5-a7d5-971f71b5efa5', passwordVariable: 'nexusPwd', usernameVariable: 'nexusUser')]) {
+                    sh 'mvn -X -s maven-settings.xml clean install -f Simple/pom.xml'
+                }
+
             }
         }
         stage('Test') {
