@@ -29,8 +29,8 @@
     <servers>
         <server>
             <id>gerry-nexus</id>
-            <username>${nexusUser}</username>
-            <password>${nexusPwd}</password>
+            <username>admin</username>
+            <password>RsEb2RnWMXj9_diJ</password>
         </server>
     </servers>
 
