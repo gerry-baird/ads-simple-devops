@@ -1,0 +1,17 @@
+mvn deploy:deploy-file -DgroupId=com.ibm.decision -DartifactId=annotations -Dversion=1.0.12 -Dpackaging=jar -DrepositoryId=ads-plugins -Durl=https://nexus-secure-nexus.mycluster-lon02-m-753506-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/ads-plugins/ -Dfile=annotations_1.0.12.jar
+
+mvn deploy:deploy-file -DgroupId=com.ibm.decision -DartifactId=engine-compact-runtime -Dversion=2.10.1.1 -Dpackaging=jar -DrepositoryId=ads-plugins -Durl=https://nexus-secure-nexus.mycluster-lon02-m-753506-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/ads-plugins/ -Dfile=engine-compact-runtime_2.10.1.1.jar
+
+mvn deploy:deploy-file -DgroupId=com.ibm.decision -DartifactId=engine-de-api -Dversion=2.10.0 -Dpackaging=jar -DrepositoryId=ads-plugins -Durl=https://nexus-secure-nexus.mycluster-lon02-m-753506-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/ads-plugins/ -Dfile=engine-de-api_2.10.0.jar
+
+mvn deploy:deploy-file -DgroupId=com.ibm.decision -DartifactId=foundation -Dversion=6.1.5.1 -Dpackaging=jar -DrepositoryId=ads-plugins -Durl=https://nexus-secure-nexus.mycluster-lon02-m-753506-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/ads-plugins/ -Dfile=foundation_6.1.5.1.jar
+
+mvn deploy:deploy-file -DgroupId=com.ibm.decision -DartifactId=maven-archetype-external-library -Dversion=6.1.5.1 -Dpackaging=jar -DrepositoryId=ads-plugins -Durl=https://nexus-secure-nexus.mycluster-lon02-m-753506-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/ads-plugins/ -Dfile=maven-archetype-external-library_6.1.5.1.jar
+
+### POM Files
+
+mvn deploy:deploy-file -DpomFile=build-maven-plugin_6.1.5.1.pom -DrepositoryId=ads-plugins -Durl=https://nexus-secure-nexus.mycluster-lon02-m-753506-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/ads-plugins/ -Dfile=build-maven-plugin_6.1.5.1.jar
+
+mvn deploy:deploy-file -DpomFile=import-maven-plugin_6.1.5.1.pom -DrepositoryId=ads-plugins -Durl=https://nexus-secure-nexus.mycluster-lon02-m-753506-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/ads-plugins/ -Dfile=import-maven-plugin_6.1.5.1.jar
+
+mvn deploy:deploy-file -DpomFile=ml-integration-runtime_22.0.5.pom -DrepositoryId=ads-plugins -Durl=https://nexus-secure-nexus.mycluster-lon02-m-753506-146c6c4a55409bbdb5403b1a18bbffeb-0000.eu-gb.containers.appdomain.cloud/repository/ads-plugins/ -Dfile=ml-integration-runtime_22.0.5.jar
