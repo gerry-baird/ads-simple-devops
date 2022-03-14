@@ -37,7 +37,7 @@ pipeline {
                         echo "Running ADS Deployment using REST from Jenkinsfile"
                         echo "Build Number ${BUILD_NUMBER}"
                         curl -k -X 'POST' \
-                        "https://cpd-cp4ba.mycluster-eu-gb-1-cx2-16x-4d2c0e6e364e1cb6bda1360a996d18f0-0000.eu-gb.containers.appdomain.cloud/ads/runtime/api/v1/deploymentSpaces/embedded/decisions/ads-simple-pipeline-uat2-${BUILD_NUMBER}/archive" \
+                        "https://cpd-cp4ba.mycluster-eu-gb-1-cx2-16x-4d2c0e6e364e1cb6bda1360a996d18f0-0000.eu-gb.containers.appdomain.cloud/ads/runtime/api/v1/deploymentSpaces/embedded/decisions/ads-simple-pipeline-uat-${BUILD_NUMBER}/archive" \
                         -H 'accept: */*' \
                         -H "Authorization: ZenApiKey ${ZenApiKey}" \
                         -H 'Content-Type: application/octet-stream' \
