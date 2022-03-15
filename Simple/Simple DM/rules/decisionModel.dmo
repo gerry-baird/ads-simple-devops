@@ -22,7 +22,6 @@
                 <input bomType="java.lang.Double" collection="false" name="calculation result"/>
                 <output bomType="java.lang.String" collection="false" name="Decision"/>
                 <rule defaultRule="false" href="node_1/Output.drl" kind="BusinessRule" name="Output"/>
-                <rule defaultRule="true" href="node_1/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
             </ruleset>
         </extensionElements>
         <variable id="node_1_ii" name="Decision" typeRef="java.lang.String"/>

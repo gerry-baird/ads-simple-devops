@@ -3,5 +3,5 @@
   <name>Do Calc</name>
   <uuid>731a1921-11b8-4802-bc5c-3c18d9d413bf</uuid>
   <locale>en_US</locale>
-  <definition><![CDATA[set decision to Number + 1;]]></definition>
+  <definition><![CDATA[set decision to Number + 6;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
