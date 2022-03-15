@@ -3,5 +3,5 @@
   <name>Output</name>
   <uuid>9a5c90a5-779c-485d-9d49-c3423c79c668</uuid>
   <locale>en_US</locale>
-  <definition><![CDATA[set decision to "Hello " + Name + " I changed the for release falcon and your number is : " + 'calculation result' ;]]></definition>
+  <definition><![CDATA[set decision to "Hello " + Name + " I changed the for release Bumblebee and your number is : " + 'calculation result' ;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
